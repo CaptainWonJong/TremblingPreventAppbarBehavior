@@ -1,5 +1,5 @@
 # TremblingPreventAppBarBehavior
-AppBar를 Fling 했을 때의 관성의 방향과 NestedScrollView에서 Fling 했을 때의 관성의 방향이 반대가 되어 바들바들 떨리는 현상을 방지하는 AppBarLayout의 Behavior
+AppBar를 Fling 했을 때의 관성의 방향과 NestedScrollView에서 Fling 했을 때의 관성의 방향이 반대가 되어 바들바들 떨리는 현상을 방지하는 AppBarLayout의 Behavior  
 ([상식 - 1:1 영양상담(다이어트, 당뇨) - Google Play 앱](https://play.google.com/store/apps/details?id=com.doinglab.sangsik))  - 1.2.6 버전의 프로그램 상세화면에서 확인 가능
 
 
