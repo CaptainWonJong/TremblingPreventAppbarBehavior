@@ -18,11 +18,8 @@ jobs:
           distribution: adopt
           java-version: 11
 
-      - name: Release Core Build
-        run: ./gradlew :core:assembleRelease
-
-      - name: Release Ui Build
-        run: ./gradlew :ui:assembleRelease
+      - name: Release Build
+        run: ./gradlew :behavior:assembleRelease
 
         # Generates other artifacts (javadocJar is optional)
       - name: Source jar and dokka
