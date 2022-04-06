@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "check lint"
+
+./gradlew ktlintCheck
+
+status=$?
+
+if [ "$status" = 0 ] ; then
+    echo "Success"
+    exit 0
+else
+    echo 1>&2 "Fail"
+    exit 1
+fi
