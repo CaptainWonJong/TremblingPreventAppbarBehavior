@@ -65,8 +65,8 @@ afterEvaluate {
                     url = 'https://github.com/CaptainWonJong/TremblingPreventAppbarBehavior'
                     licenses {
                         license {
-                            name = 'DoingLab License'
-                            url = 'https://github.com/doinglab/FoodLensSDK/LICENSE'
+                            name = 'Apache License 2.0'
+                            url = 'https://www.apache.org/licenses/LICENSE-2.0'
                         }
                     }
                     developers {
