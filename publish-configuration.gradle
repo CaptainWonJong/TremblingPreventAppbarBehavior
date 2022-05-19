@@ -1,7 +1,7 @@
 ext {
     def versionMajor = 1
     def versionMinor = 0
-    def versionPatch = 0
+    def versionPatch = 1
     PUBLISH_VERSION = "$versionMajor.$versionMinor.$versionPatch"
     PUBLISH_GROUP_ID = "io.github.captainwonjong"
 }
